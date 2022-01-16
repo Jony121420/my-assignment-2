@@ -147,6 +147,7 @@ text-align: center;
 }
 .product-icon .icon .fa-star{
     font-size:14px ;
+    color: orange;
 }
 .product-detail .product-info p{
     font-size: 14px;
@@ -201,5 +202,6 @@ width: 270px;
 
     
 }
+
 
 
