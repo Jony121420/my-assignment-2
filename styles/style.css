@@ -203,5 +203,43 @@ width: 270px;
     
 }
 
+/* footer section css starts from here */
+.footer{
+    width: 100%;
+    background-color: rgb(2, 2, 17);
+    height: 350px;
+    margin-top: 73px;
+    padding: 28px;
+}
+.footer .footer-text{
+margin-left: 41%;
+}
+.footer .footer-text h1{
+color: white;
+margin-left: 5px;
+font-size: 30px;
+}
+.footer .footer-text h2{
+    color: white;
+    margin-left: -10px;
+    font-size: 18px;
+}
+.footer .footer-text h3{
+    color: white;
+    margin-left: 42px;
+    font-size: 18px;
+}
+.footer .footer-icon{
+    margin-left: 42%;
+    margin-top: 36px;
+}
+
+.footer .footer-icon .social{
+    color: white;
+    margin-left: 24px;
+}
+
+   
+
 
 
