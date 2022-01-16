@@ -4,3 +4,75 @@ body{
     margin: 0;
     padding: 0;
 }
+header .header-title{
+    margin-left: 279px;
+    margin-top: 61px;
+    
+}
+header .header-title h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+/* top section css starts from here */
+
+/* top section-left-text */
+.top-section{
+    margin-top: 200px;
+    display: flex;
+    margin-left: 90px;
+}
+.top-section .left-text{
+    margin-left: 190px;
+}
+
+
+.top-section .left-text h1{
+    font-size: 68px;
+    font-weight: bolder;
+
+}
+
+.top-section .left-text h2{
+    font-size: 68px;
+    font-weight: bolder;
+    margin-top: -47px;
+}
+.top-section .left-text p{
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.top-section .left-text .left-text-button{
+    width: 260px;
+    height: 50px;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 19px;
+    background-color: #ff5694;
+}
+.top-section .left-text .left-text-button h3{
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    margin-top: 6px;
+    margin-left: auto;
+}
+.top-section .left-text .left-text-button h3 .fa-arrow-right{
+    margin-left: 7px;
+}
+/* top section right-text starts from here */
+
+.top-section .right-text{
+    
+    width: 40%;
+    margin-left: 65px;
+    margin-top: -7px
+    
+}
+.top-section .right-text img{
+    width: 600px;
+    height: 550px;
+    background-repeat: no-repeat;
+}
+
