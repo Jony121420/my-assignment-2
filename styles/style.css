@@ -51,6 +51,13 @@ header .header-title h2{
     margin-top: 19px;
     background-color: #ff5694;
 }
+.top-section .left-text .left-text-button:hover{
+
+background-color: darkcyan;
+transition: background-color 3s ease;
+width: 270px;
+
+}
 .top-section .left-text .left-text-button h3{
     font-size: 21px;
     font-weight: bold;
@@ -75,4 +82,124 @@ header .header-title h2{
     height: 550px;
     background-repeat: no-repeat;
 }
+.top-section .right-text img:hover{
+    transform: scale(1.1) rotate(360deg);
+    transition: transform 3s ease-in-out;
+
+}
+/* ----------------------------------------------------------------------------
+Product section css starts from here--------------- */
+.product-section{
+ margin-top: 180px;
+
+}
+.product-section .product-section-title h2{
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}
+.product-section .products{
+    
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    gap: 28px;
+    justify-content: center;
+
+    
+}
+.product-section .product{
+    width: 350px;
+    height: 476px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px #00000026;
+
+   
+}
+
+.product .product-img img{
+    width: 300px;
+    height: 256px;
+    margin: 24px;
+}
+.product .product-detail{
+    margin-left: 29px;
+    margin-top: -29px;
+}
+.product .product-detail h1{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.product .product-detail h2{
+    font-size: 24px;
+    margin-top: -8px;
+}
+.product .product-detail p{
+    font-size: 16px;
+    margin-top: 1px;
+}
+.product-detail .product-info{
+    display: flex;
+    align-items: center;
+    margin-top: -26px;
+}
+.product-icon .icon .fa-star{
+    font-size:14px ;
+}
+.product-detail .product-info p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* subscribe box css starts from here */
+
+.box {
+    width: 80%;
+    height: 400px;
+    background-color: blanchedalmond;
+    margin-left: 200px;
+    margin-top: 73px;
+    border-radius: 15px;
+    
+
+
+}
+
+.box .box-title{
+    position: absolute;
+    margin-left: 23%;
+    margin-top: 123px;
+}
+.box .box-title h1{
+    font-size: 50px;
+}
+.box .box-button{
+    background-color:  #ff5694;
+    width: 260px;
+    height: 50px;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 39%;
+    margin-top: 267px;
+
+}
+.box .box-button h3{
+   
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    margin-top: 6px;
+    margin-left: auto;   
+}
+.box .box-button:hover{
+    background-color: darkcyan;
+transition: background-color 3s ease;
+width: 270px;
+
+    
+}
+
 
