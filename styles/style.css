@@ -241,7 +241,7 @@ font-size: 30px;
 
 /* media queries starts from here */
 /* responsive mobile devices */
-@media screen and (min-width: 0px) and (max-width:576px){
+@media only screen and (min-width: 0px) and (max-width:576px){
     body{
         background-color: coral;
         
