@@ -239,6 +239,110 @@ font-size: 30px;
     margin-left: 24px;
 }
 
+/* media queries starts from here */
+/* responsive mobile devices */
+@media screen and (min-width: 0px) and (max-width:576px){
+    body{
+        background-color: coral;
+        
+    }
+    
+    .header .header-title{
+        margin-left: 210px;
+        margin-top: 61px;
+    }
+    .header .header-title h2{
+        font-size: 20px;
+        font-weight: bold;
+    
+    }
+    .top-section{
+        flex-direction: column;
+    }
+    .top-section .right-text{
+        margin-top: -560px;
+        margin-left: 119px;
+    }
+    .top-section .right-text img{
+        width: 260px;
+    height: 248px;
+    }
+    .top-section .left-text{
+        margin-top: 183px;
+        margin-left: 15px;
+    }
+    .top-section .left-text h1{
+        font-size: 35px;
+        margin-top: -23px;
+        margin-left: 41px;
+    }
+    .top-section .left-text h2{
+        font-size: 35px;
+        margin-top: 10px;
+        margin-left: 116px;
+    }
+    .top-section .left-text p{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .top-section .left-text .left-text-button{
+        width: 194px;
+        height: 44px;
+        margin-left: 95px;
+    }
+    .top-section .left-text .left-text-button h3{
+       font-size: 17px;
+    }
+    .product-section .product-section-title{
+        margin-top: -103px;
+        position: absolute;
+        margin-left: 210px;
+}
+    
+    .product-section .products{
+        display: grid;
+        grid-template-columns: repeat(1,200px);
+        margin-top: 684px;
+        margin-right: 99px;
+        
+
+    }
+    .box .box-title{
+        margin-left: 19%;
+        margin-top: 42px;
+    }
+
+    
+    .sub .box{
+        width: 100%;
+        height: 400px;
+        background-color: blanchedalmond;
+        margin-left: 30px;
+        margin-top: 73px;
+        border-radius: 15px;
+    }
+    .box .box-title h2{
+        font-size: 28px;
+    }
+    .box .box-button{
+        background-color: #ff5694;
+        width: 194px;
+        height: 45px;
+        padding: 8px;
+        border: none;
+        border-radius: 15px;
+        margin-left: 27%;
+        margin-top: 232px;
+    }
+    .footer .footer-text{
+        margin-left: 25%;
+    }
+    .footer .footer-icon{
+        margin-left: 30%;
+        margin-top: 36px;
+    }
+}
+
    
 
 
