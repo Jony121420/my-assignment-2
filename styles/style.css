@@ -242,11 +242,8 @@ font-size: 30px;
 /* media queries starts from here */
 /* responsive mobile devices */
 @media only screen and (min-width: 0px) and (max-width:576px){
-    body{
-        background-color: coral;
-        
-    }
-    
+   
+   
     .header .header-title{
         margin-left: 210px;
         margin-top: 61px;
@@ -343,7 +340,71 @@ font-size: 30px;
     }
 }
 
-   
+   /* responsive for tablet device */
+   @media only screen and (min-width:577px) and (max-width:768px) {
+       body{
+           background-color: coral;
+       }
+       .top .top-section{
+           margin-left: 3px;
+       }
+       .product-section .product-section-title{
+        margin-left: 20%;
+       }
+       .product-section .product-section-title h2{
+           font-size: 45px;
+       }
+       .product-section .products{
+           display: grid;
+           grid-template-columns:repeat(2,1fr);
+           margin-left: 89%;
+           gap: 66px;
+       }
+       .box{
+        width: 1000px;
+        height: 433px;
+        background-color: blanchedalmond;
+        margin-left: 78px;
+        margin-top: 73px;
+        border-radius: 15px;
+    }
+
+       .box .box-title{
+        position: absolute;
+        margin-left: 18%;
+        margin-top: 19px;
+       }
+       .box .box-title h1{
+        font-size: 50px;
+       }
+       .box .box-button{
+        background-color: #ff5694;
+        width: 260px;
+        height: 50px;
+        padding: 8px;
+        border: none;
+        border-radius: 15px;
+        margin-left: 12%;
+        margin-top: 236px;
+       }
+       .box .box-button h2{
+        font-size: 21px;
+       }
+       .footer{
+        width: 1101px;
+        background-color: rgb(2, 2, 17);
+        height: 350px;
+        margin-top: 73px;
+        padding: 28px;
+       }
+       .footer .footer-text{
+        margin-left: 41%;
+       }
+       .footer .footer-icon{
+        margin-left: 42%;
+        margin-top: 36px;
+       }
+   }
 
 
 
